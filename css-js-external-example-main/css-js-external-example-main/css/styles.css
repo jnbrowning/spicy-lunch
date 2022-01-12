@@ -1,0 +1,12 @@
+body {
+    background: white;
+    color: black;
+}
+
+.spicy {
+  color: red;
+}
+
+.spicy::after{
+  content: " (spicy) ";
+}
