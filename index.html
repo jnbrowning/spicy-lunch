@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- ADDING JS AND CSS VIA EXTERNAL FILES -->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- if you remove the `defer` attribribute, it won't work, because this
+        JavaScript expects ` <div id="javascript-will-add-content">` but it loads
+        and executes before that element is available -->
+    <script defer src="js/some_javascript.js"></script>
+  </head>
+  <body>
+    <h1>Lunch Menu</h1>
+    <ul>
+      <li>Beef Broccoli</li>
+      <li>Sesame Chicken</li>
+      <li>Chicken Broccoli</li>
+      <li class="spicy">Sesame Chicken</li>
+      <li>Chicken Mixed Vegetables</li>
+      <li class="spicy">Kung Pao Chicken</li>
+    </ul>
+  </body>
+</html>
